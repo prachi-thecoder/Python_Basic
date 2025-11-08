@@ -1,0 +1,9 @@
+a=input("Enter a string:")
+b=input("Enter a character:")
+
+c=a.find(b)
+if c+1:
+            print(a.replace(b,'#'))
+            print(a.zfill(len(a)+3))
+else:
+    print(a.zfill(len(a)+5))
